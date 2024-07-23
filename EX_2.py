@@ -2,7 +2,7 @@ def check_concentration(gas_name, concentration):
     legal_limits = {
         'NO2': 0.03,  # 이산화질소(ppm)
         'CO': 9,  # 일산화탄소(ppm)
-        'SO2': 0.02  # 아황산가스(ppm)
+        'SO2': 0.02,  # 아황산가스(ppm)
     }
 
     if gas_name in legal_limits:
