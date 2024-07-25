@@ -52,13 +52,15 @@ while True:
         print("유효한 가스 이름을 입력하세요.")
 
 # 전체 결과 출력
-print("\n전체 결과:")
+print("\n","-"*25,"전체 결과","-"*25)
 for gas_name, concentration, result in results:
     if gas_name == "O2":
-        print(f"{result} 가스: {gas_name}, 농도: {concentration} %")
+        print(f"{result} [가스: {gas_name}, 농도: {concentration} %]")
     else:
-        print(f"{result} 가스: {gas_name}, 농도: {concentration} ppm")
+        print(f"{result} [가스: {gas_name}, 농도: {concentration} ppm]")
 
+print("-"*60)
+print("\n")
 # 결과를 DataFrame으로 변환하여 Excel 파일에 저장
 try:
     df = pd.DataFrame(results, columns=['Gas', 'Concentration', 'Result'])
