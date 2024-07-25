@@ -68,5 +68,3 @@ try:
     print("Excel 파일로 저장했습니다.")
 except Exception as e:
     print(f"Excel 파일 저장 중 오류가 발생했습니다: {e}")
-
-print("프로그램을 종료했습니다.")
