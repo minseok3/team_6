@@ -8,5 +8,12 @@
 
 개발 계획에는 각 유해가스의 측정된 수치를 입력 변수로 활용하고, 이를 기준으로 정상, 주의, 경고를 알리는 함수를 개발했습니다.
 
+허용범위 : 
+인화성가스 (HC): 25 ppm
+탄화수소 (O2): 18 ~ 23.5 %
+이산화탄소 (CO2): 1.5 ppm
+일산화탄소 (CO): 9 ppm
+황화수소 (H2S): 10 ppm
+
 ![image](https://github.com/user-attachments/assets/f2bffa3e-7f2d-4202-8202-9e0e02326d2d) ![image](https://github.com/user-attachments/assets/6228bbe5-070c-4542-aa53-71416d3dc9d4)
 
