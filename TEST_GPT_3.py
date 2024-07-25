@@ -2,9 +2,9 @@ import pandas as pd
 
 def check_concentration(gas_name, concentration):
     legal_limits = {
-        "HC": 25,    # 인화성가스
+        "HC": 25,    # 탄화수소
         "O2": [18, 23.5],   # 산소
-        "CO2": 1.5,   # 탄산가스
+        "CO2": 1.5,   # 이산화탄소
         "CO": 9,   # 일산화탄소
         "H2S": 10,   # 황화수소
     }
@@ -17,7 +17,7 @@ def check_concentration(gas_name, concentration):
             elif concentration <= legal_limit:
                 result = f"안전 : 입력한 {gas_name} 농도는 안전 기준에 부합합니다."
             else:
-                result = f"위험 : {gas_name}의 농도는 안전 기준을 초과했습니다."
+                result = f"위험 : 입력한 {gas_name}의 농도는 안전 기준을 초과했습니다."
         else:
             if legal_limits["O2"][0] <= concentration < legal_limits["O2"][1]:
                 result = f"안전 : 입력한 {gas_name} 농도는 안전 기준에 부합합니다."
