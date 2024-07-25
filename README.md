@@ -21,7 +21,7 @@
 황화수소 (H2S): 10 ppm 미만
 어플리케이션 목적
 
-![image](https://github.com/user-attachments/assets/f2bffa3e-7f2d-4202-8202-9e0e02326d2d) ![image](https://github.com/user-attachments/assets/6228bbe5-070c-4542-aa53-71416d3dc9d4)
+![image](https://github.com/user-attachments/assets/f2bffa3e-7f2d-4202-8202-9e0e02326d2d) 
 
 1.유해가스 농도를 자동으로 측정하고 경고하는 것을 목적으로 한다.
   어플리케이션 네이밍의 의미
