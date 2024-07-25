@@ -10,15 +10,15 @@
 
 **허용범위 :**
 
-인화성가스 (HC): 25 ppm
+인화성가스 (HC): 25 ppm 미만
 
 탄화수소 (O2): 18 ~ 23.5 %
 
-이산화탄소 (CO2): 1.5 ppm
+이산화탄소 (CO2): 1.5 ppm 미만
 
-일산화탄소 (CO): 9 ppm
+일산화탄소 (CO): 9 ppm 미만
 
-황화수소 (H2S): 10 ppm
+황화수소 (H2S): 10 ppm 미만
 
 ![image](https://github.com/user-attachments/assets/f2bffa3e-7f2d-4202-8202-9e0e02326d2d) ![image](https://github.com/user-attachments/assets/6228bbe5-070c-4542-aa53-71416d3dc9d4)
 
